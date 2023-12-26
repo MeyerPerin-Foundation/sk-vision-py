@@ -1,0 +1,21 @@
+{
+    "schema": 1,
+    "name": "AnimalFacts",
+    "type": "completion",
+    "description": "Given the name of an animal, provides three interesting facts about it",
+    "completion": {
+        "temperature": 0.8,
+        "number_of_responses": 1,
+        "top_p": 1,
+        "max_tokens": 2000,
+        "presence_penalty": 0.0,
+       "frequency_penalty": 0.0
+       },
+       "input": {
+     "parameters": [{
+      "name": "input",
+      "description": "Name of an animal",
+      "defaultValue": ""
+     }]
+    }
+}
