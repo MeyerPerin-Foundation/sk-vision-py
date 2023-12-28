@@ -1,5 +1,6 @@
-# sk-vision-py
-Semantic Kernel Python native plugin to use the OpenAI vision API while it's not available in the Semantic Kernel itself.
+# Vision plugin for the Microsoft Semantic Kernel
+
+The code in this repository provides a simple Python interface to connect the [OpenAI Vision API](https://platform.openai.com/docs/guides/vision) to the [Microsoft Semantic Kernel](https://github.com/microsoft/semantic-kernel/).
 
 # Requirements
 
